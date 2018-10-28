@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
-    public int speed = 5;
+    public int speed = 10;//speed is faster
     // Use this for initialization
     void Start () {
 		

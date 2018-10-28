@@ -8,6 +8,8 @@ public class respawn : MonoBehaviour
     void FixedUpdate()
     {
         if (transform.position.y < -10)
-            transform.position = new Vector3(0, 0, 0);
+            transform.position = new Vector3(0, 7, -3); //changes respawn location
+        else if (transform.position.y > 7)
+                transform.position = new Vector3(0, 7, -3);
     }
 }
