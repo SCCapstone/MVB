@@ -15,7 +15,8 @@ https://www.youtube.com/watch?v=LSypZfOChYE
 Unity\
 Android Studio\
 Android Debug Bridge\
-Oculus Go
+Oculus Go\
+Computer with decent graphics card
 
 ```
 Give examples
@@ -65,7 +66,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-
+* Unity
 
 ## Contributing
 
