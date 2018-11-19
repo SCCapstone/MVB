@@ -12,9 +12,9 @@ https://www.youtube.com/watch?v=LSypZfOChYE
 
 ### Prerequisites
 
-Unity
-Android Studio
-Android Debug Bridge
+Unity\
+Android Studio\
+Android Debug Bridge\
 Oculus Go
 
 ```
@@ -88,4 +88,4 @@ Add additional notes about how to deploy this on a live system
 
 ## Acknowledgments
 
-* Dr. Jose Vidal
+* **Dr. Jose Vidal**
