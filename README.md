@@ -7,7 +7,7 @@ This project aims to reflect a student's experience at the University of South C
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 We followed resources online for setting up our development / test environment:\
-https://medium.com/inborn-experience/how-to-build-an-app-for-the-oculus-go-from-start-to-finish-with-unity-cb72d931ddae
+https://medium.com/inborn-experience/how-to-build-an-app-for-the-oculus-go-from-start-to-finish-with-unity-cb72d931ddae \
 https://www.youtube.com/watch?v=LSypZfOChYE
 
 ### Prerequisites
