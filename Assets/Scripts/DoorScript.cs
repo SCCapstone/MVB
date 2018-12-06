@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//MVB Script
 public class DoorScript : MonoBehaviour {
     private bool opened;
     public Vector3 openedPosition, closedPosition;  
