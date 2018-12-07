@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class TooltipScript : MonoBehaviour {
 
+    //MVB Script
     public Text helpText;
     public Text tooltipText;
 
