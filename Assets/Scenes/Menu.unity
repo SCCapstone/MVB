@@ -390,6 +390,7 @@ GameObject:
   - component: {fileID: 139948565}
   - component: {fileID: 139948564}
   - component: {fileID: 139948563}
+  - component: {fileID: 139948566}
   m_Layer: 0
   m_Name: MusicManager
   m_TagString: Untagged
@@ -406,7 +407,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 16df69d3614278d479b88ffd387aa61c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bf984fd2964fc4e4b86d2205609d695d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -503,8 +504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449b36f4d31c3094b91f7e4dbc966714, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volume: {fileID: 326713579}
-  myMusic: {fileID: 139948563}
 --- !u!4 &139948565
 Transform:
   m_ObjectHideFlags: 0
@@ -518,6 +517,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &139948566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 139948562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e1e6562aa6052b45a3f056895e0c62f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volume: {fileID: 1012722674}
+  myMusic: {fileID: 139948563}
 --- !u!1001 &161772610
 Prefab:
   m_ObjectHideFlags: 0
@@ -978,12 +990,6 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 292799691}
   m_Enabled: 1
---- !u!114 &326713579 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11400000, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1012722673}
-  m_Script: {fileID: -113659843, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &376389383
 GameObject:
   m_ObjectHideFlags: 0
@@ -2452,6 +2458,12 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &1012722674 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11400000, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1012722673}
+  m_Script: {fileID: -113659843, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &1052716632
 GameObject:
   m_ObjectHideFlags: 0
@@ -2992,7 +3004,6 @@ GameObject:
   - component: {fileID: 1331393195}
   - component: {fileID: 1331393194}
   - component: {fileID: 1331393198}
-  - component: {fileID: 1331393199}
   m_Layer: 0
   m_Name: OVRCameraRig
   m_TagString: Untagged
@@ -3204,13 +3215,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!81 &1331393199
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1331393192}
-  m_Enabled: 1
 --- !u!1001 &1396200665
 Prefab:
   m_ObjectHideFlags: 0
