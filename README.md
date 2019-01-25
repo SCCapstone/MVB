@@ -82,6 +82,7 @@ Add additional notes about how to deploy this on a live system
 * **Andy Michels**
 * **Allen Sanamandra**
 * **Kenny Richardson**
+* **Paolo Milan**
 
 
 ## License
