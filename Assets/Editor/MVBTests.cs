@@ -10,7 +10,7 @@ public class MVBTests
     public void QuitOnClick_Test()
     {
         bool QuitOnClick = false;
-        bool value = QuitOnClick.Quit();
+        bool value = QuitOnClick;
 
         Assert.That(value, Is.EqualTo(QuitOnClick));
     }
