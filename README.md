@@ -40,13 +40,22 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
+TESTING MILESTONE
+
 ## Running the tests // CSCE 492
 
-Explain how to run the automated tests for this system
+Automated tests are run using the .NET NUnit Framework within Unity for unit testing.
+The "Unity UI Test Automation" asset for Unity is used for behavior / UI testing (third party asset).
+When booting the project into Unity, going to Windows -> General -> Test Runner will allow the user to test specific tests that have been created (they are in a folder named Tests).
+Simply pressing the run test button should test the script.
 
 ### Break down into end to end tests // CSCE 492
 
-Explain what these tests test and why
+Unit Tests
+1. Checks to see if the quit on click function does what it is supposed to do (i.e. quit the app when a specific object / button in the environment is pressed).
+
+Behavior / UI Tests
+1. Runs through the app by going through all scenes to make sure all scenes are reachable.
 
 ```
 Give an example
@@ -80,9 +89,10 @@ Add additional notes about how to deploy this on a live system
 * **Franco Godoy**
 * **Sadad Khan**
 * **Andy Michels**
+* **Paolo Milan**
 * **Allen Sanamandra**
 * **Kenny Richardson**
-* **Paolo Milan**
+
 
 
 ## License
