@@ -31,7 +31,7 @@ public class pause_script : MonoBehaviour {
             PCanvas.gameObject.SetActive(true);
             //Canvas_Set.gameObject.SetActive(false);
 
-            Time.timeScale = 0;
+            //Time.timeScale = 0;
         }
         else
         {
@@ -52,7 +52,7 @@ public class pause_script : MonoBehaviour {
             //Canvas_Set.gameObject.SetActive(false);
             PCanvas.gameObject.SetActive(true);
 
-            Time.timeScale = 0;
+            //Time.timeScale = 0;
         }
         else
         {
