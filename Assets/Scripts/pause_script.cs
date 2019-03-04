@@ -5,8 +5,7 @@ using UnityEngine.EventSystems;
 
 //using static UnityEditor.CameraEditor;
 
-public class pause_script : MonoBehaviour
-{
+public class pause_script : MonoBehaviour {
 
     public Transform PCanvas;
 
@@ -20,8 +19,7 @@ public class pause_script : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         OVRInput.Update();
 
     }
@@ -65,4 +63,3 @@ public class pause_script : MonoBehaviour
     }
 
 }
-
