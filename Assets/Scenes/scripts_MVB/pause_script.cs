@@ -35,7 +35,7 @@ public class pause_script : MonoBehaviour {
         }
         else
         {
-            PCanvas.gameObject.SetActive(false);
+           PCanvas.gameObject.SetActive(false);
             //Canvas_Set.gameObject.SetActive(false);
             //Time.timeScale = 1;
         }
