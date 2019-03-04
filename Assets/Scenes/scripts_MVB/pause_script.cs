@@ -9,7 +9,7 @@ public class pause_script : MonoBehaviour {
 
     public Transform PCanvas;
 
-
+      
     private void Start()
     {
 
