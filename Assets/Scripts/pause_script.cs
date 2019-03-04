@@ -30,7 +30,7 @@ public class pause_script : MonoBehaviour {
 
             PCanvas.gameObject.SetActive(true);
             //Canvas_Set.gameObject.SetActive(false);
-
+            //Commented out to make menu objects move
             //Time.timeScale = 0;
         }
         else
@@ -51,7 +51,7 @@ public class pause_script : MonoBehaviour {
         {
             //Canvas_Set.gameObject.SetActive(false);
             PCanvas.gameObject.SetActive(true);
-
+            //Commented out to make menu objects move
             //Time.timeScale = 0;
         }
         else
