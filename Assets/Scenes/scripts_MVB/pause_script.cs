@@ -1,14 +1,14 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 //using static UnityEditor.CameraEditor;
 
-public class pause_script : MonoBehaviour {
+public class pause_script : MonoBehaviour{
 
     public Transform PCanvas;
-  
+
 
     private void Start()
     {
@@ -19,9 +19,9 @@ public class pause_script : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
+    void Update(){
         OVRInput.Update();
-  
+
     }
     public void pause_function()
     {
@@ -61,5 +61,7 @@ public class pause_script : MonoBehaviour {
 
         }
     }
-    
+
 }
+
+
