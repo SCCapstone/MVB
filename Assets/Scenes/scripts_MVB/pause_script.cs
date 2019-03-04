@@ -1,11 +1,68 @@
-fileFormatVersion: 2
-guid: fb950a6f78712459fbf185a31948224b
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+//using static UnityEditor.CameraEditor;
+
+public class pause_script : MonoBehaviour
+{
+
+    public Transform PCanvas;
+
+
+    private void Start()
+    {
+
+        PCanvas.gameObject.SetActive(false);
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        OVRInput.Update();
+
+    }
+    public void pause_function()
+    {
+        if (PCanvas.gameObject.activeInHierarchy == false)
+        {
+
+            PCanvas.gameObject.SetActive(true);
+            //Canvas_Set.gameObject.SetActive(false);
+            //Commented out to make menu objects move
+            //Time.timeScale = 0;
+        }
+        else
+        {
+            PCanvas.gameObject.SetActive(false);
+            //Canvas_Set.gameObject.SetActive(false);
+            //Time.timeScale = 1;
+        }
+    }
+    public void res_function()
+    {
+        PCanvas.gameObject.SetActive(false);
+        Time.timeScale = 1;
+    }
+    public void ba_bu_func()
+    {
+        if (PCanvas.gameObject.activeInHierarchy == false)
+        {
+            //Canvas_Set.gameObject.SetActive(false);
+            PCanvas.gameObject.SetActive(true);
+            //Commented out to make menu objects move
+            //Time.timeScale = 0;
+        }
+        else
+        {
+            PCanvas.gameObject.SetActive(false);
+            //Canvas_Set.gameObject.SetActive(true);
+
+        }
+    }
+
+}
+
