@@ -59,7 +59,7 @@ public class OVRTrackedRemote : MonoBehaviour
 		if ((controllerConnected != m_prevControllerConnected) || !m_prevControllerConnectedCached)
 		{
 			m_modelOculusGoController.SetActive(controllerConnected && m_isOculusGo);
-			m_modelGearVrController.SetActive(controllerConnected && !m_isOculusGo);
+			//m_modelGearVrController.SetActive(controllerConnected && !m_isOculusGo);
 
 			m_prevControllerConnected = controllerConnected;
 			m_prevControllerConnectedCached = true;
