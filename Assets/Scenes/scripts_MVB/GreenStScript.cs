@@ -31,7 +31,7 @@ public class GreenStScript : MonoBehaviour
             {
                 //shows in console controller can detect canvas2
                 Debug.Log("HERE");
-                
+
 
 
                 //loads scene from Scene manager on OVRInput trigger down
@@ -43,6 +43,7 @@ public class GreenStScript : MonoBehaviour
             }
             else if (hit.collider.gameObject.name == "Canvas_to_leconte")
             {
+                Debug.Log("HERE");
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
                 {
                     SceneManager.LoadScene("ZZZstadium_dorm");
