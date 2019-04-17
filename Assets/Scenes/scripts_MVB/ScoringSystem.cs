@@ -10,8 +10,6 @@ public class ScoringSystem : MonoBehaviour
 
    void Update()
     {
-        //theScore += 1;
         scoreText.GetComponent<Text>().text = "Clemson Paws: " + theScore; Debug.Log("reached");
-        
     }
 }

@@ -6,10 +6,14 @@ public class CollectPaw : MonoBehaviour
 {
     public AudioSource collectSound;
 
-    public void Collect()//(Collider other)
+    public void Collect()
     {
-        collectSound.Play();
-        ScoringSystem.theScore += 1;
-        Destroy(gameObject);
+        
+        {
+            collectSound.Play();
+            ScoringSystem.theScore += 1;
+            Destroy(gameObject);
+            DontDestroyOnLoad(gameObject);
+        }
     }
 }

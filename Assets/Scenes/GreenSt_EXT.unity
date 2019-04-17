@@ -1398,7 +1398,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 38
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2146,7 +2146,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1113654590}
-  - component: {fileID: 1113654589}
   - component: {fileID: 1113654588}
   m_Layer: 0
   m_Name: ScoringSystem
@@ -2168,20 +2167,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 584227305}
---- !u!114 &1113654589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113654587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1113654590
 Transform:
   m_ObjectHideFlags: 0
@@ -3513,9 +3498,8 @@ GameObject:
   - component: {fileID: 1938394552}
   - component: {fileID: 1938394551}
   - component: {fileID: 1938394550}
-  - component: {fileID: 1938394549}
   - component: {fileID: 1938394548}
-  - component: {fileID: 1938394547}
+  - component: {fileID: 1938394549}
   m_Layer: 5
   m_Name: CollectibleButton
   m_TagString: Untagged
@@ -3543,19 +3527,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1938394547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938394545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf956b62c68746c4d945068c7856d185, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collectSound: {fileID: 1491522781}
 --- !u!114 &1938394548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3565,11 +3536,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1938394545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47dcead951ebbe942bb607810e3f2d78, type: 3}
+  m_Script: {fileID: 11500000, guid: d04ea439e43727e4a8e07da6ac74a8af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
+  collectSound: {fileID: 1491522781}
+  thisPawID: 0
 --- !u!23 &1938394549
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3661,8 +3632,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1938394547}
-        m_MethodName: Collect
+      - m_Target: {fileID: 1938394548}
+        m_MethodName: Reset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1938394548}
+        m_MethodName: CallThisWhenCollected
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
