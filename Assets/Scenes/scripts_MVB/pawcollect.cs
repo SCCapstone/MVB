@@ -5,6 +5,7 @@ using UnityEngine;
 public class pawcollect : MonoBehaviour
 {
     public AudioSource collectSound;
+    public AudioSource allPawsCollected;
     private static int IDCounter = 0;
     public int thisPawID = -1;
     public void Reset()
@@ -36,5 +37,15 @@ public class pawcollect : MonoBehaviour
         collectSound.Play();
         ScoringSystem.theScore += 1;
         Destroy(gameObject);
+        if(pawCollectedDatabase.ContainsKey(thisPawID = 0) && pawCollectedDatabase.ContainsKey(thisPawID = 1))
+        {
+            allPawsCollected.Play();
+            GameObject rewardImage = Instantiate(Resources.Load("vidal"),
+                                     new Vector3(-20, 0, -9),
+                                     Quaternion.identity) as GameObject;
+
+        }
+            
+
     }
 }

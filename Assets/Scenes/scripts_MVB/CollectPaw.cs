@@ -13,7 +13,6 @@ public class CollectPaw : MonoBehaviour
             collectSound.Play();
             ScoringSystem.theScore += 1;
             Destroy(gameObject);
-            DontDestroyOnLoad(gameObject);
         }
     }
 }

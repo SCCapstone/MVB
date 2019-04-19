@@ -10,6 +10,6 @@ public class ScoringSystem : MonoBehaviour
 
    void Update()
     {
-        scoreText.GetComponent<Text>().text = "Clemson Paws: " + theScore; Debug.Log("reached");
+        scoreText.GetComponent<Text>().text = "Collectible Cockys: " + theScore; Debug.Log("reached");
     }
 }
