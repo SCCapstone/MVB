@@ -1,4 +1,4 @@
-# "Message in a Virtual Bottle" Oculus Go Virtual Reality App
+# "Message in a Virtual Bottle" Oculus Go Virtual Reality App big ol test boi
 
 This project aims to reflect a student's experience at the University of South Carolina through the use of an Oculus Go virtual reality (VR) headset. The app will give imagery and audio descriptions of student life at the university in VR and not simply a tour of the campus. It will cover a student's journey from freshman year to senior year, and will be primarily be designed towards MBA students at the Darla Moore School of Business and incoming / prospective undergraduate students in the Department of Computer Science and Engineering as well as the Darla Moore School of Business. It could also be used for distance education students to give them a feel of a student's experience at the university. 
 
