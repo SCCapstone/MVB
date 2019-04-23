@@ -14,7 +14,7 @@ This project reflects a student's experience at the University of South Carolina
 * [Video: How to Build an Oculus Go App with Unity](https://www.youtube.com/watch?v=LSypZfOChYE)
 * [Article: How To Build an App for the Oculus Go From Start To Finish (with Unity)](https://medium.com/inborn-experience/how-to-build-an-app-for-the-oculus-go-from-start-to-finish-with-unity-cb72d931ddae)
 
-# __The following is adapted from the above sources; it is highly recommended to follow along with the above video / article.__
+# __The following is adapted from the above references; it is highly recommended to follow along with the above video / article.__
 
 ## Prerequisites
 * Clone the MVB Repository
