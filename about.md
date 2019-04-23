@@ -1,26 +1,23 @@
 # About the Developers
 [About MVB](https://sccapstone.github.io/MVB/)
 
-## Franco Godoy
+## [Franco Godoy](https://github.com/godoy159)
 
 
-
-## Sadad Khan
-
+## [Sadad Khan](https://github.com/srkhan)
 
 
-## Andy Michels
-
-andy is a good boi
-
-## Paolo Milan
+## [Andy Michels](https://github.com/AMichels1)
 
 
-
-## Allen Sanamandra
-
+## [Paolo Milan](https://github.com/paolomilan)
 
 
-## Kenny Richardson
+## [Kenny Richardson](https://github.com/kennethr95)
+
+
+## [Allen Sanamandra](https://github.com/asanamandra)
+
+
 
 
