@@ -7,8 +7,9 @@
 ## [Sadad Khan](https://github.com/srkhan)
 
 
-## [Andy Michels](https://github.com/AMichels1)
+## [Andy Michels](https://github.com/AMichels1) [(LinkedIn)](https://www.linkedin.com/in/andy-michels-a80952135/)
 
+Andy is currently a senior Computer Information Systems student at the University of South Carolina. He has done internships at Life Cycle Engineering, TIAA, and Boeing in addition to working part-time at the University Foundations office. After graduation, he plans to complete a master's in Computer Science in one year at the University of South Carolina.
 
 ## [Paolo Milan](https://github.com/paolomilan)
 
