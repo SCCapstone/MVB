@@ -6,7 +6,7 @@ This project reflects a student's experience at the University of South Carolina
 
 # Demo Video
 
-https://user-images.githubusercontent.com/23486993/56549599-2cce8880-6551-11e9-9b0b-10c222678d07.png
+<img src="https://user-images.githubusercontent.com/23486993/56549599-2cce8880-6551-11e9-9b0b-10c222678d07.png" width="550">
 
 # Installation for Development
 
