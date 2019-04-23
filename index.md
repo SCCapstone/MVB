@@ -4,6 +4,10 @@ This project reflects a student's experience at the University of South Carolina
 
 [About the Developers](https://sccapstone.github.io/MVB/about.html)
 
+# Demo Video
+
+
+
 # Installation for Development
 ## Prerequisites
 * Clone the MVB Repository
@@ -63,7 +67,7 @@ When installing Unity, make sure `Android Build Support` is selected.
 * [More information on the Unity Test Runner](https://docs.unity3d.com/Manual/testing-editortestsrunner.html)
 
 
-## Developers
+## [Developers](https://sccapstone.github.io/MVB/about.html)
 
 * **Franco Godoy**
 * **Sadad Khan**
@@ -74,7 +78,7 @@ When installing Unity, make sure `Android Build Support` is selected.
 
 ## Contributing
 
-* **Dr. Kirk Fielder**
+* **Dr. Kirk Fiedler**
 
 ## Acknowledgments
 
