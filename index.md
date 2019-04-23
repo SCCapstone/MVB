@@ -76,8 +76,8 @@ When installing Unity, make sure `Android Build Support` is selected.
 * **Sadad Khan**
 * **Andy Michels**
 * **Paolo Milan**
-* **Allen Sanamandra**
 * **Kenny Richardson**
+* **Allen Sanamandra**
 
 ## [Contributing](https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/kirkfiedler.php)
 
