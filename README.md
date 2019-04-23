@@ -1,4 +1,4 @@
-* [Home](https://github.com/SCCapstone/MVB/wiki)
+* [About the Developers](https://github.com/SCCapstone/MVB/blob/gh-pages/aboutus.md)
 
 
 # "Message in a Virtual Bottle" Oculus Go Virtual Reality App
