@@ -3,6 +3,7 @@
 
 ## [Franco Godoy](https://github.com/godoy159)
 
+Franco is currently a senior Computer Science student at the University of South Carolina. He Started an internship during the summer of 2018 at scana, or what is known as today as Dominion Energy Southeast Energy group, as an ISOC (Integrated Security Operations Center) Analyst, and is currently working as a co-op throughout the school year. After gradution Franco will begin working as a full time ISOC Analyst, and furthering his skill as a cyber security analyst via security certificates. 
 
 ## [Sadad Khan](https://github.com/srkhan)
 
