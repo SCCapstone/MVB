@@ -1,3 +1,6 @@
+* [Home](https://github.com/SCCapstone/MVB/wiki)
+
+
 # "Message in a Virtual Bottle" Oculus Go Virtual Reality App
 
 This project reflects a student's experience at the University of South Carolina (USC) through the use of an Oculus Go virtual reality (VR) headset. The app gives imagery and audio descriptions of student life at USC in VR; it covers a student's journey and showcases the main areas of campus and the Columbia, SC area. The app is primarily designed for MBA students at the Darla Moore School of Business and incoming / prospective undergraduate students in the Department of Computer Science and Engineering as well as the Darla Moore School of Business. It could also be used for distance education students to give them a feel of a student's experience at the university.
