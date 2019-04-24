@@ -4,6 +4,7 @@ using UnityEngine;
 
 //MVB Script
 public class DoorScript : MonoBehaviour {
+    public AudioSource DoorSound;
     private bool opened;
     public Vector3 openedPosition, closedPosition;  
 	// Use this for initialization
@@ -21,6 +22,7 @@ public class DoorScript : MonoBehaviour {
         }
         if(opened)
         {
+            DoorSound.Play();
             transform.position = Vector3.Lerp(transform.position, openedPosition, Time.deltaTime * 5f);
         }
 		
