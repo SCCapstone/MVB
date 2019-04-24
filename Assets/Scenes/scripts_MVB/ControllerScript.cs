@@ -40,13 +40,54 @@ public class ControllerScript : MonoBehaviour
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
             }
-            /*else if(hit.collider.gameObject.name =="Door")
+            else if (hit.collider.gameObject.name == "Canvas3")
             {
+                //shows in console controller can detect canvas2
+                Debug.Log("HERE");
+
+
+                //loads scene from Scene manager on OVRInput trigger down
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
                 {
+                    SceneManager.LoadScene("sample_maze_2");
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
-            }*/
+            }
+            else if (hit.collider.gameObject.name == "Canvas4")
+            {
+                //shows in console controller can detect canvas2
+                Debug.Log("HERE");
+
+
+                //loads scene from Scene manager on OVRInput trigger down
+                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene("sample_maze_2");
+                    go.transform.SendMessage("OnVRTriggerDown");
+                }
+            }
+            else if (hit.collider.gameObject.name == "Canvas5")
+            {
+                //shows in console controller can detect canvas2
+                Debug.Log("HERE");
+
+
+                //loads scene from Scene manager on OVRInput trigger down
+                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene("sample_maze_2");
+                    go.transform.SendMessage("OnVRTriggerDown");
+                }
+            }
+            /*  else if(hit.collider.gameObject.name =="Door")
+              {
+                  Debug.Log("Door Hit");
+                  if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                  {
+
+                      go.transform.SendMessage("OnVRTriggerDown");
+                  }
+              }*/
 
             else if (hit.collider != null)
             {
