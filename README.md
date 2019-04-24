@@ -52,7 +52,7 @@ When installing Unity, make sure `Android Build Support` is selected.
 * Connect the Oculus Go to PC via USB.
 * Run `adb devices` to make sure the Oculus Go has been connected.
 * In Unity, go to **File > Build Settings** and build the scenes.
-* Building will creat an APK file. Save the APK somewhere and copy the build to where ADB has been installed from the last step.
+* Building will create an APK file. Save the APK somewhere and copy the build to where ADB has been installed from the last step.
 * then **Run** `adb install [buildname].apk
 * After you see **SUCCESS** on the screen, that means it has downloaded onto the Oculus GO.
 * Inside the Oculus Go, navigate to **Library > Unknown Sources** and the build app should appear.
