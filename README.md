@@ -36,7 +36,7 @@ When installing Unity, make sure `Android Build Support` is selected.
 
 ### Setup Unity to Build for Android
 * Go to **File > Build Settings**
-* Select Android and then **Switch Platform.** (If Android support was not added when Unity was first installed, do so now, then restart Unity).
+* Select Android and then **Switch Platform.** (If Android support was not added when Unity was first installed, do so now, then restart Unity.)
 * Close out and go to **Edit > Preferences** then **External Tools** Tab
 ** Scroll down to Android section and set `SDK, JDK, NDK` paths from earlier ten close.
 * Now go to **Edit > Project Settings > Player**
