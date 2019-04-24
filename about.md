@@ -7,6 +7,8 @@ Franco is currently a senior Computer Science student at the University of South
 
 ## [Sadad Khan](https://github.com/srkhan)
 
+Sadad is just trying to graduate
+
 
 ## [Andy Michels](https://github.com/AMichels1) [(LinkedIn)](https://www.linkedin.com/in/andy-michels-a80952135/)
 
