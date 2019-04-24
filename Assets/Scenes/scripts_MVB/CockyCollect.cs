@@ -37,9 +37,7 @@ public class CockyCollect : MonoBehaviour
         collectSound.Play();
         ScoringSystem.theScore += 1;
         Destroy(gameObject);
-        if (cockyCollectedDatabase.ContainsKey(thisCockyID = 0) && cockyCollectedDatabase.ContainsKey(thisCockyID = 1)
-            && cockyCollectedDatabase.ContainsKey(thisCockyID = 2) && cockyCollectedDatabase.ContainsKey(thisCockyID = 3)
-            && cockyCollectedDatabase.ContainsKey(thisCockyID = 4))
+       if(ScoringSystem.theScore == 5)
         {
             allCockysCollected.Play();
         }
