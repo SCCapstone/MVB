@@ -24,13 +24,15 @@ public class DoorScript : MonoBehaviour {
         {
             
             transform.position = Vector3.Lerp(transform.position, openedPosition, Time.deltaTime * 5f);
-            doorSound.Play();
+           
         }
 		
 	}
     void OnVRTriggerDown()
     {
+
         opened = true;
+        doorSound.Play();
     }
 
 }
