@@ -20,7 +20,7 @@ Paolo is currently a senior Computer Science student at the University of South 
 ## [Kenny Richardson](https://github.com/kennethr95)
 
 
-## [Allen Sanamandra](https://github.com/asanamandra)
+## [Allen Sanamandra](https://github.com/asanamandra) [(LinkedIn)](https://www.linkedin.com/in/allen-sanamandra)
 Allen Sanamandra is currently majoring in Computer Information Systems at the University of South Carolina. He has volunteer experiene with the University of South Carolina's mobile research team and currently looking for a full time internship for the summer. After graduating, he plans to complete his master's in Computer Science at the University of South Carolina. 
 
 
