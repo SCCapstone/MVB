@@ -5,7 +5,7 @@
 
 Franco is currently a senior Computer Science student at the University of South Carolina. He Started an internship during the summer of 2018 at scana, or what is known as today as Dominion Energy Southeast Energy group, as an ISOC (Integrated Security Operations Center) Analyst, and is currently working as a co-op throughout the school year. After gradution Franco will begin working as a full time ISOC Analyst, and furthering his skill as a cyber security analyst via security certificates. 
 
-## [Sadad Khan](https://github.com/srkhan) [(LinkedIn)](https://www.linkedin.com/in/sadad-khan-4ba50a151/)
+## [Sadad Khan](https://github.com/srkhan)
 
 Sadad is just trying to graduate
 
@@ -21,7 +21,6 @@ Paolo is currently a senior Computer Science student at the University of South 
 
 
 ## [Allen Sanamandra](https://github.com/asanamandra)
-
-
+Allen Sanamandra is currently majoring in Computer Information Systems at the University of South Carolina. He has volunteer experiene with the University of South Carolina's mobile research team and currently looking for a full time internship for the summer. After graduating, he plans to complete his master's in Computer Science at the University of South Carolina. 
 
 
