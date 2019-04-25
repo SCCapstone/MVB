@@ -4,11 +4,12 @@ This project reflects a student's experience at the University of South Carolina
 
 [About the Developers](https://sccapstone.github.io/MVB/about.html)
 
-# Demo Video
+# Demo Video (Click Thumbnail to View)
 
 
 [<img src="https://user-images.githubusercontent.com/23486993/56705638-bd3ad380-66df-11e9-9fec-8a6385d6281f.jpg" width="550">](https://www.youtube.com/watch?v=RLcgTIY3t2I)
 
+# Screenshots
 
 <img src="https://user-images.githubusercontent.com/23486993/56549599-2cce8880-6551-11e9-9b0b-10c222678d07.png" width="550">
 <img src="https://user-images.githubusercontent.com/23486993/56550287-3bb63a80-6553-11e9-8277-2ec69faa7ccb.png" width="550">
