@@ -40,6 +40,8 @@ public class ControllerScript : MonoBehaviour
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
             }
+            //All of the following code corresponds to reset and go out of maze
+            //This lines corresponds to williams brice quiz maze/sample maze 2
             else if (hit.collider.gameObject.name == "Canvas3")
             {
                 //shows in console controller can detect canvas2
@@ -92,6 +94,8 @@ public class ControllerScript : MonoBehaviour
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
             }
+
+            //lines corresponds to sample_maze_3
             else if (hit.collider.gameObject.name == "Canvasb3")
             {
                 //shows in console controller can detect canvas2
@@ -131,6 +135,129 @@ public class ControllerScript : MonoBehaviour
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
             }
+            if (hit.collider.gameObject.name == "Canvas2_back_scene2")
+            {
+                //shows in console controller can detect canvas2
+                Debug.Log("HERE");
+
+
+                //loads scene from Scene manager on OVRInput trigger down
+                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene("Williams-Brice_EXT");
+                    go.transform.SendMessage("OnVRTriggerDown");
+                }
+            }
+
+            //sample maze_4
+            else if (hit.collider.gameObject.name == "Canvasc3")
+            {
+                //shows in console controller can detect canvas2
+                Debug.Log("HERE");
+
+
+                //loads scene from Scene manager on OVRInput trigger down
+                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene("sample_maze_4");
+                    go.transform.SendMessage("OnVRTriggerDown");
+                }
+            }
+            else if (hit.collider.gameObject.name == "Canvasc4")
+            {
+                //shows in console controller can detect canvas2
+                Debug.Log("HERE");
+
+
+                //loads scene from Scene manager on OVRInput trigger down
+                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene("sample_maze_4");
+                    go.transform.SendMessage("OnVRTriggerDown");
+                }
+            }
+            else if (hit.collider.gameObject.name == "Canvasc5")
+            {
+                //shows in console controller can detect canvas2
+                Debug.Log("HERE");
+
+
+                //loads scene from Scene manager on OVRInput trigger down
+                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene("sample_maze_4");
+                    go.transform.SendMessage("OnVRTriggerDown");
+                }
+            }
+            if (hit.collider.gameObject.name == "Canvas2_back_scene3")
+            {
+                //shows in console controller can detect canvas2
+                Debug.Log("HERE");
+
+
+                //loads scene from Scene manager on OVRInput trigger down
+                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene("Williams-Brice_EXT");
+                    go.transform.SendMessage("OnVRTriggerDown");
+                }
+            }
+
+            //line of code swng quiz maze
+            else if (hit.collider.gameObject.name == "Canvas3_sw")
+            {
+                //shows in console controller can detect canvas2
+                Debug.Log("HERE");
+
+
+                //loads scene from Scene manager on OVRInput trigger down
+                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene("maze_swng_quiz");
+                    go.transform.SendMessage("OnVRTriggerDown");
+                }
+            }
+            else if (hit.collider.gameObject.name == "Canvas4_sw")
+            {
+                //shows in console controller can detect canvas2
+                Debug.Log("HERE");
+
+
+                //loads scene from Scene manager on OVRInput trigger down
+                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene("maze_swng_quiz");
+                    go.transform.SendMessage("OnVRTriggerDown");
+                }
+            }
+            else if (hit.collider.gameObject.name == "Canvas5_sw")
+            {
+                //shows in console controller can detect canvas2
+                Debug.Log("HERE");
+
+
+                //loads scene from Scene manager on OVRInput trigger down
+                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene("maze_swng_quiz");
+                    go.transform.SendMessage("OnVRTriggerDown");
+                }
+            }
+            if (hit.collider.gameObject.name == "Canvas2_back_scene_sw")
+            {
+                //shows in console controller can detect canvas2
+                Debug.Log("HERE");
+
+
+                //loads scene from Scene manager on OVRInput trigger down
+                if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene("SWGNHall_INT");
+                    go.transform.SendMessage("OnVRTriggerDown");
+                }
+            }
+
+
             /*  else if(hit.collider.gameObject.name =="Door")
               {
                   Debug.Log("Door Hit");
