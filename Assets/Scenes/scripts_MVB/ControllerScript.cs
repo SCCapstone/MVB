@@ -27,7 +27,7 @@ public class ControllerScript : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.forward, out hit))
         {
             //If controller points to canvas 2
-            if (hit.collider.gameObject.name == "Canvas2")
+            if (hit.collider.gameObject.name == "StartCanvas")
             {
                 //shows in console controller can detect canvas2
                 Debug.Log("HERE");
