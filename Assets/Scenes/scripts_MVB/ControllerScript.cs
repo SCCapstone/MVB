@@ -198,7 +198,7 @@ public class ControllerScript : MonoBehaviour
                 //loads scene from Scene manager on OVRInput trigger down
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
                 {
-                    SceneManager.LoadScene("Williams-Brice_EXT");
+                    SceneManager.LoadScene("Jones-Coker_EXT");
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
             }
