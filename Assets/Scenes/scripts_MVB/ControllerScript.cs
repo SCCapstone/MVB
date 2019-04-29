@@ -452,7 +452,7 @@ public class ControllerScript : MonoBehaviour
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
             }
-            if (hit.collider.gameObject.name == "Canvas2_back_scenevista")
+            if (hit.collider.gameObject.name == "Canvas2_back_sceneVista")
             {
                 //shows in console controller can detect canvas2
                 Debug.Log("HERE");
