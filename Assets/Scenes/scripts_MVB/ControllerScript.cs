@@ -144,7 +144,7 @@ public class ControllerScript : MonoBehaviour
                 //loads scene from Scene manager on OVRInput trigger down
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
                 {
-                    SceneManager.LoadScene("Innova1400_INT");
+                    SceneManager.LoadScene("Innova_EXT");
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
             }
@@ -256,7 +256,7 @@ public class ControllerScript : MonoBehaviour
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
             }
-            else if (hit.collider.gameObject.name == "Canvas3_willyb")
+            else if (hit.collider.gameObject.name == "Canvas3_leconte")
             {
                 //shows in console controller can detect canvas2
                 Debug.Log("HERE");
@@ -265,11 +265,11 @@ public class ControllerScript : MonoBehaviour
                 //loads scene from Scene manager on OVRInput trigger down
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
                 {
-                    SceneManager.LoadScene("sample_maze_willyb");
+                    SceneManager.LoadScene("sample_maze_Leconte");
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
             }
-            else if (hit.collider.gameObject.name == "Canvas4_willyb")
+            else if (hit.collider.gameObject.name == "Canvas4_leconte")
             {
                 //shows in console controller can detect canvas2
                 Debug.Log("HERE");
@@ -278,11 +278,11 @@ public class ControllerScript : MonoBehaviour
                 //loads scene from Scene manager on OVRInput trigger down
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
                 {
-                    SceneManager.LoadScene("sample_maze_willyb");
+                    SceneManager.LoadScene("sample_maze_Leconte");
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
             }
-            else if (hit.collider.gameObject.name == "Canvas5_willyb")
+            else if (hit.collider.gameObject.name == "Canvas5_leconte")
             {
                 //shows in console controller can detect canvas2
                 Debug.Log("HERE");
@@ -291,11 +291,11 @@ public class ControllerScript : MonoBehaviour
                 //loads scene from Scene manager on OVRInput trigger down
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
                 {
-                    SceneManager.LoadScene("sample_maze_willyb");
+                    SceneManager.LoadScene("sample_maze_Leconte");
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
             }
-            if (hit.collider.gameObject.name == "Canvas2_back_scenewillyb")
+            if (hit.collider.gameObject.name == "Canvas2_back_sceneleconte")
             {
                 //shows in console controller can detect canvas2
                 Debug.Log("HERE");
@@ -304,7 +304,7 @@ public class ControllerScript : MonoBehaviour
                 //loads scene from Scene manager on OVRInput trigger down
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
                 {
-                    SceneManager.LoadScene("Williams-Brice_EXT");
+                    SceneManager.LoadScene("LeconteToGambrellBridge_EXT");
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
             }
@@ -373,7 +373,7 @@ public class ControllerScript : MonoBehaviour
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
             }
-            else if (hit.collider.gameObject.name == "Canvas4_dmsb101")
+            else if (hit.collider.gameObject.name == "Canvas4_dmsb")
             {
                 //shows in console controller can detect canvas2
                 Debug.Log("HERE");
