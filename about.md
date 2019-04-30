@@ -5,7 +5,7 @@
 
 Franco is currently a senior Computer Science student at the University of South Carolina. He started an internship during the summer of 2018 at SCANA, (known today as Dominion Energy Southeast Energy Group) as an ISOC (Integrated Security Operations Center) Analyst, and is currently working as a co-op throughout the school year. After gradution Franco will begin working as a full-time ISOC Analyst, and furthering his skill as a cybersecurity analyst via security certificates. 
 
-## [Sadad Khan](https://github.com/srkhan) [(LinkedIn)](https://https://www.linkedin.com/in/sadad-khan-4ba50a151/)
+## [Sadad Khan](https://github.com/srkhan) [(LinkedIn)](https://www.linkedin.com/in/sadad-khan-4ba50a151/)
 
 Sadad is just trying to graduate
 
