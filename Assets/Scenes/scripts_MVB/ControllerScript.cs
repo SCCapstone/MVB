@@ -10,7 +10,7 @@ public class ControllerScript : MonoBehaviour
     //MVB Script
     public GameObject go;
     public GameObject empty;
-    public AudioSource DoorSound;
+    public AudioSource sandstorm;
     void Start()
     {
         //creating an emptuy object so i dont create a lot of new game objects
@@ -516,6 +516,17 @@ public class ControllerScript : MonoBehaviour
                     SceneManager.LoadScene("Clapper_EXT");
                     go.transform.SendMessage("OnVRTriggerDown");
                 }
+            }
+
+            if (hit.collider.gameObject.name == "NPC_win")
+            {
+                //shows in console controller can detect canvas2
+                Debug.Log("npc_hit");
+                sandstorm.Play();
+
+
+                //loads scene from Scene manager on OVRInput trigger down
+                
             }
 
             /*  else if(hit.collider.gameObject.name =="Door")
