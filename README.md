@@ -82,3 +82,6 @@ When installing Unity, make sure `Android Build Support` is selected.
 ## [Acknowledgments](https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/josevidal.php)
 
 * **Dr. Jose Vidal**
+
+## Special Thanks
+* **Jill McCain (for her voice)**
