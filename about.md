@@ -13,7 +13,7 @@ Sadad is just trying to graduate
 
 Andy is currently a senior Computer Information Systems student at the University of South Carolina. He has done internships at Life Cycle Engineering, TIAA, and Boeing in addition to working part-time at the University Foundations office. After graduation, he plans to complete a master's in Computer Science in one year at the University of South Carolina.
 
-## [Paolo Milan](https://github.com/paolomilan)
+## [Paolo Milan](https://github.com/paolomilan) [(LinkedIn)](https://www.linkedin.com/in/paolo-milan-1571ab132/)
 
 Paolo is currently a senior Computer Science student at the University of South Carolina. He has done internships with Youth Digital and Heathwood Hall where he served as a Summer Camp Instructor, with a focus in teaching how to code primarily in Java. After graduation, he plans to look for a job in Charlotte.
 
