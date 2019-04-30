@@ -60,7 +60,7 @@ When installing Unity, make sure `Android Build Support` is selected.
 ### Testing
 * The Unity Test Runner currently does not seem to have much support for VR / Oculus Go testing; therefore, the tests are without the VR inputs and setups.
 * The tests are located under Assets/Tests directory.
-* Current test are scene switching when button is clicked and check whether the door is opened or closed. 
+* Current test are scene switching when the Unity Test Runner button is clicked.
 * All tests are done through the built-in Unity Test Runner. 
 * To access Unity Test Runner, go to Window > General > Test Runner, then select Play Mode then Run All.
 * [More information on the Unity Test Runner](https://docs.unity3d.com/Manual/testing-editortestsrunner.html)
